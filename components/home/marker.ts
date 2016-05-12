@@ -1,10 +1,9 @@
-import {Component, Input} from '@angular/core'
+import {Directive, Input} from '@angular/core'
 
 import {GoogleMapService} from './service'
 
-@Component({
-  selector: 'marker',
-  template: ``
+@Directive({
+  selector: 'marker'
 })
 
 export class  MarkerComponent {
