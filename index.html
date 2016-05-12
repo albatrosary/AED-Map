@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1. Display the application -->
+    <my-app>Loading...</my-app>
+    
+    <!-- 2. Load libraries -->
+  <script src="node_modules/es6-shim/es6-shim.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXG38eN0daQbwUemk3IAS8_bmcmRMqvTg"></script>
+    
+    <!-- 3. Configure SystemJS -->
+    <script>
+    System.import('system-config.js')
+      .then(function () {
+        System.import('scripts/main');
+      })
+      .catch(console.error.bind(console));
+    </script>
+  </body>
+</html>

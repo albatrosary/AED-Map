@@ -1,0 +1,5 @@
+node_modules
+typings
+typings.json
+*.js
+*.js.map

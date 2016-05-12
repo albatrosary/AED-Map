@@ -1,0 +1,117 @@
+  [
+  {
+    "name": "connect-history-api-fallback",
+    "version": "^1.1.0",
+    "desc": "Provides a fallback for non-existing directories so that the HTML 5 history API can be used."
+  },
+  {
+    "name": "grunt",
+    "version": "^0.4.5",
+    "desc": "The JavaScript Task Runner"
+  },
+  {
+    "name": "grunt-autoprefixer",
+    "version": "^3.0.1",
+    "desc": "Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer."
+  },
+  {
+    "name": "grunt-browser-sync",
+    "version": "^2.1.3",
+    "desc": "Live CSS reload & Browser Syncing"
+  },
+  {
+    "name": "grunt-concurrent",
+    "version": "^1.0.0",
+    "desc": "Run grunt tasks concurrently"
+  },
+  {
+    "name": "grunt-contrib-clean",
+    "version": "^0.6.0",
+    "desc": "Clean files and folders."
+  },
+  {
+    "name": "grunt-contrib-concat",
+    "version": "^0.5.1",
+    "desc": "Concatenate files."
+  },
+  {
+    "name": "grunt-contrib-copy",
+    "version": "^0.8.0",
+    "desc": "Copy files and folders"
+  },
+  {
+    "name": "grunt-contrib-cssmin",
+    "version": "^0.12.3",
+    "desc": "Minify CSS"
+  },
+  {
+    "name": "grunt-contrib-htmlmin",
+    "version": "^0.4.0",
+    "desc": "Minify HTML"
+  },
+  {
+    "name": "grunt-contrib-imagemin",
+    "version": "^0.9.4",
+    "desc": "Minify images"
+  },
+  {
+    "name": "grunt-contrib-jshint",
+    "version": "^0.11.2",
+    "desc": "Validate files with JSHint."
+  },
+  {
+    "name": "grunt-contrib-uglify",
+    "version": "^0.9.1",
+    "desc": "Minify files with UglifyJS."
+  },
+  {
+    "name": "grunt-contrib-watch",
+    "version": "^0.6.1",
+    "desc": "Run predefined tasks whenever watched file patterns are added, changed or deleted."
+  },
+  {
+    "name": "grunt-contrib-yuidoc",
+    "version": "^0.8.0",
+    "desc": "Compile YUIDoc Documentation."
+  },
+  {
+    "name": "grunt-express-server",
+    "version": "^0.5.1",
+    "desc": "Grunt task for running an Express Server that works great with LiveReload + Watch/Regarde"
+  },
+  {
+    "name": "grunt-filerev",
+    "version": "^2.3.1",
+    "desc": "Asset revisioning by using file content hashing"
+  },
+  {
+    "name": "grunt-injector",
+    "version": "^0.6.0",
+    "desc": "Inject references to files into other files (think scripts and stylesheets into an html file)"
+  },
+  {
+    "name": "grunt-karma",
+    "version": "^0.11.0",
+    "desc": "grunt plugin for karma test runner"
+  },
+  {
+    "name": "grunt-newer",
+    "version": "^1.1.0",
+    "desc": "Run Grunt tasks with only those source files modified since the last successful run."
+  },
+  {
+    "name": "grunt-plato",
+    "version": "^1.2.1",
+    "desc": "Generate complexity analysis reports with plato"
+  },
+  {
+    "name": "grunt-protractor-runner",
+    "version": "^2.0.0",
+    "desc": "A Grunt plugin for running protractor runner."
+  },
+  {
+    "name": "grunt-protractor-webdriver",
+    "version": "^0.2.0",
+    "desc": "grunt plugin for starting Protractor's bundled Selenium Webdriver"
+  }
+  ]
