@@ -1,5 +1,4 @@
 import {Component, Input} from '@angular/core'
-import {JSONP_PROVIDERS} from '@angular/http';
 
 import {GoogleMapService} from './service'
 
