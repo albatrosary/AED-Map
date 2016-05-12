@@ -1,10 +1,8 @@
-'use strict';
-
-var express = require('express');
-var bodyParser = require('body-parser');
-var app = express();
-var server = require('http').createServer(app);
-var port =  8000;
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const server = require('http').createServer(app);
+const port =  8000;
 
 app.set('jsonp callback name', 'callback');
 
@@ -18,9 +16,7 @@ app.use(function(req, res, next) {
 });
 
 // Start server
-server.listen(port, function() {
-  console.log('Express server listening on %d, in %s mode', port, app.get('env'));
-});
+server.listen(port, () => console.log('Express server listening on %d, in %s mode', port, app.get('env')));
 
 // API definition
 require('./api/sed/sed')(app);

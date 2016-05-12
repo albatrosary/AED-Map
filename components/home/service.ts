@@ -25,7 +25,7 @@ export class GoogleMapService {
   }
   
   public init () {
-    this.map = new google.maps.Map(document.getElementById('map'), {
+    this.map = new google.maps.Map(document.querySelector('#map'), {
       center: {lat: 31.6473515, lng: 130.572884899999}, 
       scrollwheel: false,
       zoom: 11

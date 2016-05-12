@@ -7,11 +7,12 @@ import {GoogleMapService} from './service'
 @Component({
   selector: 'my-app',
   template: `
-    <div id="map"></div>
-    <marker *ngFor="let item of items"
-            lat-data="{{item.Latitude}}"
-            lng-data="{{item.Longitude}}">
-    </marker>
+    <div id="map">
+      <marker *ngFor="let item of items"
+              lat-data="{{item.Latitude}}"
+              lng-data="{{item.Longitude}}">
+      </marker>
+    </div>
   `,
   styles:[`
     #map {
@@ -26,7 +27,7 @@ import {GoogleMapService} from './service'
 export class AppComponent {
   
   private items: any;
-  private googlemap;
+  private googlemap: GoogleMapService;
   
   constructor (googlemap: GoogleMapService){
     this.googlemap = googlemap;

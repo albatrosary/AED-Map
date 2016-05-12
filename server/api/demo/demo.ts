@@ -1,9 +1,9 @@
 'use strict';
 
 exports = module.exports = function(app) {
-  var json = require('./sed.json');
+  const json = require('./sed.json');
  
-  app.get('/api/sed/', function(req, res) {
+  app.get('/api/sed/', (req, res) => {
     res.jsonp(json)
   });
 };

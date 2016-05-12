@@ -9,11 +9,12 @@ import {GoogleMapService} from './service'
 export class  MarkerComponent {
   
   @Input('lat-data')
-  private lat: number;
+  private lat: string;
   
   @Input('lng-data')
-  private lng: number;
-  private googlemap;
+  private lng: string;
+  
+  private googlemap: GoogleMapService;
   
   constructor (googlemap: GoogleMapService){
     this.googlemap = googlemap;
