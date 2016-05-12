@@ -19,7 +19,7 @@ import {GoogleMapService} from './service'
       width:  100%;
       height: 600px;
     }
-  `],
+  `], 
   providers:[JSONP_PROVIDERS, GoogleMapService],
   directives: [MarkerComponent]
 })
@@ -28,19 +28,23 @@ export class AppComponent {
   
   private items: any;
   private googlemap: GoogleMapService;
+  private h: number;
   
   constructor (googlemap: GoogleMapService){
+    this.h = window.innerHeight;
     this.googlemap = googlemap;
   }
   
   ngOnInit() {
-    this.googlemap.mapping()
+    this.googlemap
+      .init('#map')
+      
+    this.googlemap
+      .mapping()
       .subscribe (
         res => this.items = res.json(),
         error => console.log(error)
       );
-      
-    this.googlemap.init();
   }
 }
 　
